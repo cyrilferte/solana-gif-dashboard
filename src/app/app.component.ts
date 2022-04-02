@@ -56,7 +56,7 @@ export class AppComponent implements OnInit, AfterViewInit, AfterViewChecked {
             await this.getGifList()
           });
 
-          
+
         }
       } else {
         alert('Solana object not found! Get a Phantom Wallet 👻');
