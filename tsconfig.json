@@ -21,7 +21,15 @@
     "lib": [
       "es2020",
       "dom"
-    ]
+    ],
+    "resolveJsonModule": true,
+    "allowSyntheticDefaultImports": true,
+    "paths": {
+      "assert": [
+        "./assert.ts"
+      ]
+    },
+    "allowJs": true,
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
